@@ -1,3 +1,17 @@
+# Core web framework
 Flask==3.0.3
+
+# MySQL connector for database
+mysql-connector-python==9.0.0
+
+# WSGI HTTP server for deployment (used by Render, Vercel, etc.)
 gunicorn==23.0.0
-mysql-connector-python==9.5.0
+
+# Data handling and optional reporting
+pandas==2.2.2
+
+# Template engine dependencies (optional but common)
+Jinja2==3.1.4
+Werkzeug==3.0.4
+itsdangerous==2.2.0
+click==8.1.7
